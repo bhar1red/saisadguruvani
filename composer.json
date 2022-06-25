@@ -16,10 +16,21 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/better_exposed_filters": "^5.1",
+        "drupal/bootstrap": "^3.25",
+        "drupal/bootstrap_datepicker": "^2.0",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
-        "drush/drush": "^10.2"
+        "drupal/dxpr_theme": "^1.2",
+        "drupal/imagemagick": "^3.3",
+        "drupal/media_pdf_thumbnail": "^5.0",
+        "drupal/pdfpreview": "^1.0",
+        "drupal/uswds": "^2.4",
+        "drupal/views_year_filter": "^1.7",
+        "drush/drush": "^10.2",
+        "spatie/pdf-to-image": "^2.2",
+        "vojtys/bootstrap-datepicker": "^1.2"
     },
     "conflict": {
         "drupal/drupal": "*"
