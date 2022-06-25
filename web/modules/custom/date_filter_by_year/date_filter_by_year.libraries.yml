@@ -1,0 +1,4 @@
+date-filter-by-year:
+  version: 1.x
+  js:
+    js/date-filter-by-year.js: {}

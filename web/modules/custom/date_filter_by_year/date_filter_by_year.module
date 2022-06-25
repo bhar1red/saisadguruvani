@@ -1,0 +1,6 @@
+<?php
+use Drupal\views\ViewExecutable;
+
+function date_filter_by_year_views_pre_render(ViewExecutable $view){
+  $view->element['#attached']['library'][] = 'date_filter_by_year/date-filter-by-year';
+}
